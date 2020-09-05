@@ -1,0 +1,9 @@
+<h2 class="mt-4 mb-4 text-center">Saudação condicional</h2>
+<h3>Data / hora</h3>
+<p>{{timestamp}}</p>
+<h3 class="mt-4 mb-2">Hora</h3>
+<p>{{getHour()}}h</p>
+<p *ngIf="getHour() % 2 == 0">O número é par</p>
+<p *ngIf="getHour() % 2 != 0">O número é ímpar</p>
+<h3 class="mt-4 mb-2">Saudação</h3>
+<p>{{getGreeting()}}</p>
