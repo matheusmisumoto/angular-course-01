@@ -1,3 +1,3 @@
-# fatec-angular-aula01
+# Angular Course - 1st script
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/fatec-angular-aula01)
+Creating a single page application using Angular, with RouterModule and simple JavaScript functions to be used in components.
