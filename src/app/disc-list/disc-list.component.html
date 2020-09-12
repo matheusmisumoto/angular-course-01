@@ -1,0 +1,4 @@
+<h2 class="mt-4 mb-4 text-center">Álbuns</h2>
+<ul *ngFor="let disc of list; index as i">
+  <li><a [routerLink] = "['/discs', i]">{{disc.title}}</a></li>
+</ul>
